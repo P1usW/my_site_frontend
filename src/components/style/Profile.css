@@ -1,0 +1,125 @@
+.about-me {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.about-me p,
+.about-me div,
+.about-me h2 {
+    position: relative;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+}
+
+.about-me h2::before, .about-me h2::after {
+    color: #515152;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.about-me h2::before {
+    content: "<h2>";
+    left: -1rem;
+    margin: -2rem;
+}
+
+.about-me h2::after {
+    content: "</h2>";
+    left: -3rem;
+    margin-top: 2rem;
+}
+
+.about-me-list {
+    list-style: none;
+}
+
+.about-me p::before, .about-me p::after {
+    font-size: 16px;
+    font-family: 'La Belle Aurore', cursive;
+    color: #515152;
+    position: absolute;
+}
+
+.about-me p::before {
+    content: '<p>';
+    left: -2rem;
+}
+
+.about-me p::after {
+    content: '</p>';
+    padding-left: 1rem;
+}
+
+.about-me.second {
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 1fr 4fr 9fr;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: max-content;
+    height: 300px;
+}
+
+.main-photo {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.photo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    mix-blend-mode: color;
+}
+
+.contact-info a {
+    max-width: max-content;
+}
+
+.ideas-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d2d2d2;
+    transition: transform 1s;
+}
+
+.ideas-icon:active {
+    background-color: yellow;
+    transform: translate(0px, -30px);
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    border: transparent 1px solid;
+}

@@ -1,0 +1,9 @@
+.projects-page {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    height: max-content;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+

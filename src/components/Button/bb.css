@@ -1,0 +1,36 @@
+.btn {
+    background-color: transparent;
+    border: #aa0000 2px solid;
+    position: relative;
+    height: 60px;
+    width: 200px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-btn {
+    position: absolute;
+    top: 0;
+    left: -5%;
+    background-color: #aa0000;
+    width: 0;
+    height: 100%;
+    transition: width 0.5s ease-out;
+    transform: skewX(-10deg);
+    z-index: 2;
+}
+
+.contact-me {
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+
+.btn:hover .b-btn {
+   width: 110%;
+}

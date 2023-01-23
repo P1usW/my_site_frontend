@@ -1,0 +1,10 @@
+.run-text {
+    color: white;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    font-size: calc(var(--size)*0.9);
+    line-height: 3rem;
+    text-align: justify;
+    font-family: Pixel, 'Lucida Console', serif;
+}

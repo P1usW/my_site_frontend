@@ -1,0 +1,23 @@
+.one-project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: #6a6a6a 1px solid;
+}
+
+.git-hub-link {
+    text-decoration-line: none;
+    font-size: 20px;
+    color: #58a6ff;
+}
+
+.git-hub-link:hover {
+    text-decoration-line: underline;
+}
+
+.git-hub-link:visited {
+    color: #58a6ff;
+}
+
+.lang {
+    font-size: 18px;
+}

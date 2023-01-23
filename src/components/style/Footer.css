@@ -1,0 +1,9 @@
+footer {
+    width: 100vw;
+    height: 150px;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: var(--left-padding);
+}
