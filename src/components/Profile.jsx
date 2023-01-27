@@ -11,6 +11,7 @@ import ideas_icon from "./style/icons/Tilda_Icons_40_IT_ideas.svg";
 
 
 const Profile = () => {
+
     const [hrefLogo] = useState({
             logoVk: 'https://vk.com/ivan_4cb',
             logoDs: 'https://discordapp.com/users/300596510012211200/',
